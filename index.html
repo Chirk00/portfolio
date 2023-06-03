@@ -20,9 +20,9 @@
       <nav class="header__nav" aria-labelledby="sr-only">
         <h2 class="sr-only">Главное меню</h2>
         <ul class="nav">
-          <li class="nav__item"><a href="#" class="nav__link">Мои работы</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Обо мне</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link nav__link--header">Мои работы</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link nav__link--header">Обо мне</a></li>
+          <li class="nav__item"><a href="#contacts" class="nav__link nav__link--header">Контакты</a></li>
         </ul>
       </nav>
     </div>
@@ -39,9 +39,11 @@
             <p class="hero__desc">
               Какая-то очень интересная информация обо мне. Очень интересная информация...
             </p>
-            <button class="hero__button btn">
-              Связаться со мной
-            </button>
+            <a class="hero__link" href="https://t.me/chirk00" target="_blank">
+              <button class="hero__button btn">
+                Связаться со мной
+              </button>
+            </a>
           </li>
           <li class="hero__item">
             <div class="hero__img-circle">
@@ -52,7 +54,7 @@
       </div>      
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="container about__container">
         <h2 class="about__title">
           Я умею
@@ -77,14 +79,14 @@
       </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="container projects__container">
         <h2 class="projects__title">
           Мои проекты
         </h2>
         <ul class="projects__list">
           <li class="projects__item">
-            <img src="#" alt="Изображение моих выполнненых работ" class="projects__img">
+            <img src="./img/hero_img.jpeg" alt="Изображение моих выполнненых работ" class="projects__img">
             <div class="projects__wrap">
               <h3 class="project-title">
                 Работа 1
@@ -95,7 +97,7 @@
             </div>
           </li>
           <li class="projects__item">
-            <img src="#" alt="Изображение моих выполнненых работ" class="projects__img">
+            <img src="./img/hero_img.jpeg" alt="Изображение моих выполнненых работ" class="projects__img">
             <div class="projects__wrap">
               <h3 class="project-title">
                 Работа 1
@@ -106,7 +108,7 @@
             </div>
           </li>
           <li class="projects__item">
-            <img src="#" alt="Изображение моих выполнненых работ" class="projects__img">
+            <img src="./img/hero_img.jpeg" alt="Изображение моих выполнненых работ" class="projects__img">
             <div class="projects__wrap">
               <h3 class="project-title">
                 Работа 1
@@ -120,7 +122,7 @@
       </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="container contacts__container">
         <h2 class="contacts__title">
           Контакты
@@ -130,25 +132,31 @@
             <h3 class="contact-title">
               GitHub
             </h3>
-            <button class="btn">
-              <a href="#" class="contact-link">Ссылка</a>
-            </button>
+            <a class="contact-link" href="https://github.com/Chirk00" target="_blank">
+              <button class="btn contacts__btn">
+                Ссылка
+              </button>
+            </a>
           </li>
           <li class="contacts__item">
             <h3 class="contact-title">
               Telegram
             </h3>
-            <button class="btn">
-              <a href="#" class="contact-link">Ссылка</a>
-            </button>
+            <a class="contact-link" href="https://t.me/chirk00" target="_blank">
+              <button class="btn contacts__btn">
+                Ссылка
+              </button>
+            </a>
           </li>
           <li class="contacts__item">
             <h3 class="contact-title">
               Phone 
             </h3>
-            <button class="btn">
-              <a href="#" class="contact-link">Ссылка</a>
-            </button>
+            <a class="contact-link" href="tel:79529459107" >
+              <button class="btn contacts__btn">
+                +79529459107
+              </button>
+            </a>
           </li>
         </ul>
       </div>
@@ -160,12 +168,12 @@
       <span class="logo">
         @ALEXGUSEV
       </span>
-      <nav class="nav footer__nav" aria-labelledby="sr-only">
+      <nav class="footer__nav" aria-labelledby="sr-only">
         <h2 class="sr-only">Главное меню</h2>
-        <ul>
-          <li><a href="#" class="nav__link">Обо мне</a></li>
-          <li><a href="#" class="nav__link">Мои работы</a></li>
-          <li><a href="#" class="nav__link">Контакты</a></li>
+        <ul class="nav">
+          <li class="nav__item"><a href="#about" class="nav__link">Обо мне</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Мои работы</a></li>
+          <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
         </ul>
       </nav>
     </div>
